@@ -1,0 +1,247 @@
+header{
+    background-color:#8B0000;
+    color: white;
+    
+}
+.logo-header{
+    width: 80px;
+}
+.nav-item{
+    margin-left: 5px;
+}
+.nav-link{
+    color: white  !important;
+}
+.nav-link:hover{
+    color: #FFD700  !important;
+}
+.navbar-nav{
+    margin-left: 150px;
+}
+
+.btn{
+    color: white;
+    background-color: brown;
+    border-color: brown;
+}
+.btn:hover{
+    color: #FFD700;
+    background-color: brown;
+    border-color: #FFD700;
+}
+
+
+/* Section 1 Slides */
+.section1{
+    background: black;
+    color: white;
+    text-align: center;
+}
+.section1-text{
+    text-align: left;
+    font-size: 15px;
+}
+
+.carousel-section1{
+    min-height: 500px;
+    max-height: 100%;
+    max-width: 3000px;
+    padding:30px
+}
+
+.carousel-video{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+/* End Section1 */
+
+/* Section 2 Em destaque */
+.section2{
+    color: black;
+}
+.dropdown-section2{
+    padding: 10px;
+    float: right;
+
+}
+.img-section2{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.botaoMaisFil{
+    margin-bottom: 10px;
+    float: right;
+}
+.img-avalia{
+    border-radius: 50%;
+    max-height: 100px;
+    padding: 10px;
+}
+.avalia-text{
+    padding: 20px;
+}
+/* End section 2 */
+
+/* Section 3 Makinof */
+.section3{
+    background: black;
+    color: white;
+}
+.s3{
+    background: blue;
+}
+.c-section3{
+    background:black;
+    width: 400px;
+    margin-left: 10px;
+}
+.cb-section3{
+    background: black;
+    color: white;
+}
+
+/* End section 3 */
+
+.f-novidades{
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+.sobre-section4{
+    background-color: white;
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 1400px;
+    text-align: left;
+}
+.h-section4{
+    padding-left: 10px;
+}
+.section4 p {
+    background-color: white;
+    padding: 10px
+}
+.section4 a{
+    text-decoration: none;
+    color: black;
+}
+.pls{
+    background: #8B0000;
+    color: white;
+    border-radius: 60px;
+    padding: 3px;
+   
+}
+.section4-row{
+    padding: 10px;
+}
+.fab{
+    padding: 10px;
+}
+.hr-section4{
+    margin-top: 5px;
+}
+/* Section4 end */
+.footer{
+    height: 100px;
+    padding: 50px;
+    background-color:#8B0000;
+    color: white;
+    text-align: center;
+}
+
+.footer{
+    background-size: cover;
+    background-position: 0px -250px;
+    color: white;
+    padding: 20px;
+}
+
+.puc{
+    max-width: 100px;
+    margin-top: -50px;
+    float: right;
+}
+
+/* Media screens */
+@media screen and (max-width:1023px){
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    
+    .carousel-section1{
+        max-height: 100%;
+        max-width: 3000px;
+        padding:30px
+    }
+    
+    .c-section3{
+        background:black;
+        width: 100%;
+        
+    }
+    .img-avalia{
+        border-radius: 50%;
+        max-height: 200px;
+        padding: 10px;
+        margin-left:100px;
+    }
+    .avalia-text{
+        padding: 10px;
+        margin-left:100px;
+    }
+    .sobre-section4{
+        margin-top: 0px;
+        margin-left: 0px;
+        max-width: 400px;
+    }
+    .footer{
+        height: 200px;
+        padding: 50px;
+        background-color:#8B0000;
+        color: white;
+        text-align: center;
+        margin-top: 600px;   
+    }
+
+}
+
+@media screen and (width:1024px){
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    .carousel-section1{
+        max-height: 100%;
+        max-width: 3000px;
+        padding:30px
+    }
+    
+    .c-section3{
+        background:black;
+        width: 100%;
+        
+    }
+    .sobre-section4{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 400px;
+    }
+    .footer{
+        height: 200px;
+        padding: 50px;
+        background-color:#8B0000;
+        color: white;
+        text-align: center;
+        margin-top: 600px;   
+    }
+
+}
+
+
+
+
+
